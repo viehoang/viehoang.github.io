@@ -1,0 +1,25 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+#sidebar .site-title {
+    font-size: 1.4rem;
+}
+
+.is-collapsed {
+  max-height: none !important;
+}
+
+mark {
+  background-color: #ffa7a7cc;
+}
+
+blockquote {
+  color: #ab6969;
+}
